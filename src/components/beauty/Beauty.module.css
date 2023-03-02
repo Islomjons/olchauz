@@ -1,0 +1,23 @@
+.beauty {
+    padding-bottom: 24px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.beauty__img {
+    width: 1392px;
+    height: 176px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.beauty__img:hover {
+    transform: scale(1.03);
+}

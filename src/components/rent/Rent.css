@@ -1,0 +1,39 @@
+.rent{
+    width: 1080px;
+    overflow-y: auto;
+    background-color: var(--primary-white-color);
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    transition: 0.10s ease;
+    padding: 32px;
+    border-radius: 10px;
+    top: 20%;
+  }
+  
+  .rentactive{
+    left: 13%;
+    transition: 0.10s ease;
+  }
+
+  .rent__wrapper {
+
+  }
+
+  .rent__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  }
+
+  .rent__heading {
+    font-size: 32px;
+    color: var(--primary-lightblack);
+  }
+
+  .rent__icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }

@@ -1,0 +1,46 @@
+.pdp {
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pdp__list {
+    width: 650px;
+}
+
+.pdp__desc__wrapper {
+
+}
+
+.pdp__main__img {
+    width: 442px;
+    height: 420px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.pdp__desc {
+
+}
+
+.pdp__img__wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    gap: 10px;
+}
+
+.pdp__imges {
+    width: 68px;
+    height: 68px;
+    object-fit: contain;
+    cursor: pointer;
+    border-radius: 3px;
+}

@@ -1,0 +1,116 @@
+.signup{
+    width: 480px;
+    overflow-y: auto;
+    background-color: var(--primary-white-color);
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    transition: 0.10s ease;
+    padding: 28px 40px;
+    border-radius: 10px;
+    top: 20%;
+  }
+  
+  .signupactive{
+    left: 35%;
+    transition: 0.10s ease;
+  }
+
+  .signUpWrapper {
+
+  }
+
+  .signup__top {
+
+  }
+
+  .signup__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .SignUp__icon {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+  }
+
+  .signup__heading {
+      font-size: 32px;
+      color: var(--primary-lightblack);
+      margin-bottom: 20px;
+  }
+
+  .signup__item {
+      display: flex;
+      gap: 50px;
+  }
+
+  .logIn__text {
+      cursor: pointer;
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+
+  .login__enter {
+
+  }
+
+  .form__login {
+
+  }
+
+  .login__labelBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .login__label {
+      
+  }
+
+  .login__input {
+    margin-bottom: 5px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    padding: 0 17px;
+    width: 100%;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    box-shadow: 0 0 0 1px #d5d8df;
+  }
+
+  .login__password {
+    margin-bottom: 10px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    padding: 0 17px;
+    width: 100%;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    box-shadow: 0 0 0 1px #d5d8df;
+  }
+
+  .login__btn {
+    border: none;
+    background-color: var(--primary-darkred-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 17px;
+    width: 100%;
+    border-radius: 12px;
+  }

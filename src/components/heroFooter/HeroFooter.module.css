@@ -1,0 +1,33 @@
+.herofooter {
+    padding-bottom: 64px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heroFooter__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroFooter__item {
+
+}
+
+.heroFooter__imges {
+    width: 681px;
+    height: 239px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.heroFooter__imges:hover {
+    transform: scale(1.02);
+}

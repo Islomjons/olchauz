@@ -1,0 +1,32 @@
+.herobottom {
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.herobottom__list {
+    display: flex;
+    gap: 30px;
+}
+
+.herobottom__item {
+
+}
+
+.heroBottomImges {
+    width: 444px;
+    height: 146px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.heroBottomImges:hover {
+    transform: scale(1.01);
+}
